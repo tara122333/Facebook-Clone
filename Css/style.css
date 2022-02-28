@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#efeaea;
+  }
+
+.logoName{
+    height: 390px;
+    display: inline-block;
+    position: absolute;
+    width: 48%;
+    left: 0;
+    top: 30%;
+}
+.logoName h1{
+    font-size: 60px;
+    color: #1877f2;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 30px 10px 12px 140px;
+}
+.logoName p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    margin: 2px 0px 12px 140px;
+}
+.LoginBx{
+    /* border: 3px solid brown; */
+    height: 390px;
+    width: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    right: 0;
+}
+.LoginBx .container{
+    background-color: #fff;
+    margin : 100px auto 60px;
+    border-radius: 10px;
+    height : 390px;
+    width: 90%;
+    display: inline-block;
+}
+.LoginBx .container .emailBx,.passwordBx{
+    font-size: 20px;
+    padding: 2px 16px;
+    width: 94.5%;
+    font-size: 23px;
+    margin: 8px 15px 22px 0px;
+    margin-bottom: 25px;
+    height: 55px;
+}
+input{
+    border-radius:6px;
+    outline:none;
+   border:2px solid gray;
+ }
+ input:hover{
+    border : 2px solid blue;
+ }
+ .logInBtn {
+    margin: 14px 16px;
+ }
+ .logInBtn button{
+    background-color: #2976db;
+    border: none;
+    border-radius: 6px;
+    font-size: 25px;
+    line-height: 59px;
+    padding: 0 16px;
+    width: 100%;
+    color:white; 
+    font-family: 'Lato', sans-serif;
+    font-weight:bold;
+    cursor:pointer;
+ }
+ .logInBtn button:hover{
+     background-color: blue;
+ }
+ .forgetPassBtn a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    margin: 8px 3px 8px 240px;
+ }
+ .forgetPassBtn a:hover{
+     text-decoration: underline;
+
+ }
+ .hr{
+     margin: 19px;
+ }
+ .newUserBtn {
+    margin: 14px 16px;
+ }
+ .newUserBtn button{
+        background-color: #47aa33;
+        border: none;
+        border-radius: 6px;
+        font-size: 25px;
+        line-height: 59px;
+        padding: 0 16px;
+        width: 50%;
+        color:white;
+        font-family: 'Lato', sans-serif;
+        font-weight:bold;
+        cursor:pointer;
+        position: relative;
+        left: 25%;
+ }
+ .newUserBtn button:hover{
+     background-color:  #2abe0c
+ }
